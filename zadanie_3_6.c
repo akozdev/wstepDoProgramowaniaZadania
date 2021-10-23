@@ -12,7 +12,7 @@ int main() {
   double waterMassInGrams = waterVolumeInLitres * 1000;
   long double moleculesCount = waterMassInGrams * waterMoleculeMass;
 
-  printf("%Lf litres of water contain %e water molecules.", waterVolumeInLitres, moleculesCount);
+  printf("%lf litres of water contain %Le water molecules.", waterVolumeInLitres, moleculesCount);
 
   return 0;
 }
