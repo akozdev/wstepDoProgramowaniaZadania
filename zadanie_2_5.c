@@ -8,6 +8,6 @@ int main() {
 
   printf("Liczba: %i\nLiczba x 2: %i\nLiczba do kwadratu: %i",
          liczba, liczbaTimesTwo, liczbaSquared);
-  
+
   return 0;
 }
